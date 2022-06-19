@@ -8,7 +8,7 @@ pluginManagement {
     plugins {
         id("com.android.application") version("7.2.0")
         id("com.android.library") version("7.2.0")
-        kotlin("android") version("1.6.10")
+        id("org.jetbrains.kotlin.android") version("1.6.10")
     }
 }
 dependencyResolutionManagement {

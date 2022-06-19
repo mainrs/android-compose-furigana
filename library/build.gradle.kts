@@ -4,6 +4,9 @@ plugins {
     id("maven-publish")
 }
 
+group = "com.github.mainrs"
+version = "1.0.0"
+
 android {
     namespace = "net.zerotask.libraries.android.compose.furigana"
     compileSdk = libs.versions.compileSdk.get().toInt()

@@ -27,7 +27,7 @@ See the
 example [app](./app/src/main/java/net/zerotask/libraries/android/compose/furigana/example/MainActivity.kt)
 for how to use the library.
 
-![Example Screenshot](./fastlane/metadata/android/en-US/images/phoneScreenshots/showcase_1655658414135.png)
+<img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/showcase_1655658414135.png" alt="Example Screenshot" height="500"/>
 
 # License
 

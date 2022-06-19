@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android Compose Furigana"
+rootProject.name = "android-compose-furigana"
 
 include(":app")
 include(":library")

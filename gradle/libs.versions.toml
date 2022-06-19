@@ -1,0 +1,33 @@
+[versions]
+activity = "1.4.0"
+core = "1.8.0"
+compose = "1.1.1"
+
+compileSdk = "32"
+minSdk = "21"
+targetSdk = "32"
+
+
+[libraries]
+androidx-compose-activity = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "core" }
+
+androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3", version = "1.0.0-alpha07" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+
+
+[bundles]
+app = [
+    "androidx-compose-activity",
+    "androidx-core",
+    "androidx-compose-material",
+    "androidx-compose-material3",
+    "androidx-compose-ui",
+]
+library = [
+    "androidx-compose-material",
+    "androidx-compose-material3",
+    "androidx-compose-ui",
+]

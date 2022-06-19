@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "net.zerotask.libraries.android.compose.furigana.example"
+    namespace = "net.zerotask.libraries.android"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "net.zerotask.libraries.android.compose.furigana.example"
+        applicationId = "net.zerotask.libraries.android"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1

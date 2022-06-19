@@ -16,6 +16,7 @@ androidx-compose-material = { module = "androidx.compose.material:material", ver
 androidx-compose-material3 = { module = "androidx.compose.material3:material3", version = "1.0.0-alpha07" }
 androidx-compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 
 
 [bundles]
@@ -25,9 +26,11 @@ app = [
     "androidx-compose-material",
     "androidx-compose-material3",
     "androidx-compose-ui",
+    "androidx-compose-ui-tooling-preview",
 ]
 library = [
     "androidx-compose-material",
     "androidx-compose-material3",
     "androidx-compose-ui",
+    "androidx-compose-ui-tooling-preview",
 ]
